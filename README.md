@@ -18,9 +18,15 @@ O objetivo da atividade é criar uma interface simples e funcional, aplicando co
 ## 📁 Estrutura de pastas
 neofinance/
 │
+
 ├── index.html
+
 └── assets/
+
 ├── css/
+
 │   └── style.css
+
 └── imagens/
+
 └── grafico-neofinance.png
