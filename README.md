@@ -5,9 +5,9 @@ Este projeto foi desenvolvido como atividade da FIAP, utilizando HTML, CSS e Boo
 O objetivo da atividade é criar uma interface simples e funcional, aplicando conceitos básicos de estruturação de páginas web e organização dos arquivos.
 
 ## 🧩 Tecnologias utilizadas
-- HTML5
-- CSS3
-- Bootstrap (via CDN)
+- HTML
+- CSS
+- Bootstrap 
 
 ## 📌 Funcionalidades da tela
 - Exibição de saldo, entradas e saídas do mês  
