@@ -28,3 +28,20 @@ neofinance/
     │
     └── imagens/
         └── grafico-neofinance.png
+
+## 📱 Responsividade
+
+O Bootstrap é utilizado apenas para criar uma estrutura simples e adaptável, mantendo foco no layout desktop, conforme orientado.
+
+---
+
+## ✔ Situação do projeto
+
+Todos os critérios do enunciado foram atendidos:  
+- 1 página  
+- HTML e CSS separados  
+- Uso de framework web  
+- Relacionado a fintech  
+- Publicado no GitHub  
+
+---
