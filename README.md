@@ -16,17 +16,15 @@ O objetivo da atividade é criar uma interface simples e funcional, aplicando co
 - Botões de ações rápidas (exemplo acadêmico)
 
 ## 📁 Estrutura de pastas
+
 neofinance/
 │
-
 ├── index.html
-
+│
 └── assets/
-
-├── css/
-
-│   └── style.css
-
-└── imagens/
-
-└── grafico-neofinance.png
+    │
+    ├── css/
+    │   └── style.css
+    │
+    └── imagens/
+        └── grafico-neofinance.png
