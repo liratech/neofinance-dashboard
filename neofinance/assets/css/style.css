@@ -1,0 +1,130 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+/* Limita a largura geral */
+.nf-main {
+    max-width: 1000px;
+}
+
+
+/* Cabeçalho */
+
+.nf-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+/* Resumo */
+
+.nf-box {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 12px 14px;
+}
+
+.nf-label {
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 4px;
+}
+
+.nf-valor {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.nf-legenda {
+    font-size: 12px;
+    color: #777777;
+    margin: 0;
+}
+
+.nf-positivo {
+    color: #198754;
+}
+
+.nf-negativo {
+    color: #dc3545;
+}
+
+.nf-azul {
+    color: #0d6efd;
+}
+
+/* Ações Rapidas */
+
+.nf-acoes {
+    padding-left: 2px;
+}
+
+.nf-btn-acao {
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 6px;
+}
+
+
+/* Gráfico e Tabela */
+
+.nf-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 14px 16px;
+}
+
+.nf-titulo-card {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.nf-texto-explicativo {
+    font-size: 12px;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+
+/* Grafico */
+
+.nf-grafico-container {
+    text-align: center;
+}
+
+/* Controle de tamanho do gráfico */
+
+.nf-grafico-img {
+    display: inline-block;
+    width: 100%;
+    max-width: 380px;   
+    height: auto;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+
+/* Tabela */
+
+.nf-tabela thead tr th {
+    font-size: 12px;
+    color: #666666;
+}
+
+.nf-tabela tbody tr td {
+    font-size: 13px;
+}
+
+/* Listras alternadas para ficar mais legível */
+.nf-tabela tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+

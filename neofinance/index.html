@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NeoFinance - Dashboard</title>
+
+    <!-- Bootstrap básico -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    >
+
+    <!-- CSS do projeto -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="bg-light">
+
+    <!-- CABEÇALHO -->
+    <header class="nf-header">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+            <div>
+                <h1 class="h4 m-0">NeoFinance</h1>
+                <small class="text-muted">Painel Financeiro</small>
+            </div>
+
+            <button class="btn btn-outline-secondary btn-sm" type="button">
+                Minha conta
+            </button>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container nf-main my-4">
+
+        <!-- RESUMO EM 3 CAIXAS -->
+        <section class="row g-3 mb-4">
+
+            <div class="col-md-4">
+                <div class="nf-box">
+                    <p class="nf-label">Saldo atual</p>
+                    <p class="nf-valor nf-positivo">R$ 8.750,00</p>
+                    <p class="nf-legenda">Todas as contas</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="nf-box">
+                    <p class="nf-label">Entradas no mês</p>
+                    <p class="nf-valor nf-azul">R$ 5.200,00</p>
+                    <p class="nf-legenda">Salário + extras</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="nf-box">
+                    <p class="nf-label">Saídas no mês</p>
+                    <p class="nf-valor nf-negativo">R$ 3.180,50</p>
+                    <p class="nf-legenda">Despesas cadastradas</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- AÇÕES RÁPIDAS (BOTÕES) -->
+        <section class="nf-acoes mb-4">
+            <div class="d-flex flex-wrap gap-2">
+                <button class="btn btn-primary nf-btn-acao" type="button">
+                    Nova transação
+                </button>
+
+                <button class="btn btn-outline-primary nf-btn-acao" type="button">
+                    Gerenciar contas
+                </button>
+
+                <button class="btn btn-outline-primary nf-btn-acao" type="button">
+                    Metas financeiras
+                </button>
+            </div>
+        </section>
+
+        <!-- LINHA: GRÁFICO (ESQ) + TRANSACOES (DIR) -->
+        <section class="row g-3">
+
+            <!-- COLUNA ESQUERDA: GRÁFICO PEQUENO -->
+            <div class="col-md-5">
+                <section class="nf-card">
+                    <h2 class="nf-titulo-card">Gastos por categoria</h2>
+                    <p class="nf-texto-explicativo">
+                        Gráfico ilustrativo com divisão dos gastos do mês.
+                    </p>
+
+                    <div class="nf-grafico-container">
+                        <img
+                            src="assets/imagens/grafico-neofinance.png"
+                            alt="Gráfico de gastos por categoria"
+                            class="nf-grafico-img"
+                        >
+                    </div>
+                </section>
+            </div>
+
+            <!-- COLUNA DIREITA: TABELA SIMPLES DE TRANSACOES -->
+            <div class="col-md-7">
+                <section class="nf-card">
+                    <h2 class="nf-titulo-card">Transações recentes</h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-sm nf-tabela">
+                            <thead>
+                                <tr>
+                                    <th>Tipo</th>
+                                    <th>Descrição</th>
+                                    <th>Data</th>
+                                    <th class="text-end">Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Entrada</td>
+                                    <td>Salário</td>
+                                    <td>Hoje</td>
+                                    <td class="text-end text-success">+ R$ 3.500,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Saída</td>
+                                    <td>Supermercado</td>
+                                    <td>Ontem</td>
+                                    <td class="text-end text-danger">- R$ 289,90</td>
+                                </tr>
+                                <tr>
+                                    <td>Saída</td>
+                                    <td>Streaming</td>
+                                    <td>2 dias atrás</td>
+                                    <td class="text-end text-danger">- R$ 39,90</td>
+                                </tr>
+                                <tr>
+                                    <td>Transferência</td>
+                                    <td>Poupança Neo</td>
+                                    <td>3 dias atrás</td>
+                                    <td class="text-end text-primary">- R$ 500,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </section>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="text-center text-muted py-3 small">
+        NeoFinance © 2025
+    </footer>
+
+</body>
+</html>
